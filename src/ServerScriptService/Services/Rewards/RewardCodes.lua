@@ -1,0 +1,28 @@
+local RewardCodes = {
+	["RELEASE"] = {Active = true, Spins = 2},
+	["SUPERSTAR"] = {Active = true, Coins = 100},
+	["FREESPIN"] = {Active = false, Spins = 2},
+	["HOMERUNHITTER"] = {Active = false, Spins = 2},
+	["RBI"] = {Active = true, Spins = 2},
+	["ASCENSION"] = {Active = false, Spins = 2},
+	["RANKED"] = {Active = false, Spins = 2},
+	["DOUBLEPLAY"] = {Active = false, Spins = 5},
+	["BASERUNNING"] = {Active = false, Spins = 5},
+	["NEWTEAMS"] = {Active = false, Spins = 5},
+	["SLUGGER"] = {Active = false, Spins = 5},
+	["TRAINING"] = {Active = false, Spins = 5},
+	["OVERCHARGE"] = {Active = false, Spins = 5},
+	["MEDITATION"] = {Active = false, Spins = 5},
+	["FISHERMAN"] = {Active = false, Spins = 5},
+	["HARVEST"] = {Active = false, Spins = 5},
+	["BLIZZARD"] = {Active = false, Spins = 5},
+	["SUBZERO"] = {Active = false, Spins = 10},
+	["BASEBALLPRESENT"] = {Active = false, LuckySpins = 3},
+	["METRO"] = {Active = true, LuckySpins = 3},
+	["TUTORIAL"] = {Active = true, LuckySpins = 3},
+	["BLIGHT"] = {Active = true, LuckySpins = 5},
+	["SOFTBALL"] = {Active = true, LuckySpins = 5},
+	["SKYBOUND"] = {Active = true, Spins = 5},
+}
+
+return RewardCodes
